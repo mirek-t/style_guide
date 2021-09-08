@@ -1,0 +1,7 @@
+@function px-to-rem($value) {
+    @return ($value / 16) * 1rem;
+}
+
+@mixin px-to-rem-mixin($value, $property) {
+    #{$property}: ($value / 16) * 1rem;
+}
