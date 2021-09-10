@@ -9,7 +9,12 @@
 @import "./variables/font";
 @import "./variables/variables";
 
+@import "./components/spacing";
+@import "./components/font-icons";
+@import "./components/typography.scss";
 @import "./components/colors";
 @import "./components/buttons";
+@import "./components/forms";
+
 
 @import "./style-guide"
