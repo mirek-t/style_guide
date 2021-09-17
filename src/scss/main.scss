@@ -1,20 +1,16 @@
-@import "../../node_modules/normalize-scss/sass/normalize/import-now";
-
-@import "./functions";
-@import "./global";
-
-// Variables
-@import "./variables/colors";
-@import "./variables/spacing";
-@import "./variables/font";
-@import "./variables/variables";
-
-@import "./components/spacing";
-@import "./components/font-icons";
-@import "./components/typography.scss";
-@import "./components/colors";
-@import "./components/buttons";
-@import "./components/forms";
-
-
-@import "./style-guide"
+@import "partials/reset";
+@import "partials/functions";
+@import "partials/variables";
+@import "partials/colors";
+@import "partials/spacing";
+@import "partials/grid";
+@import "partials/font-icons";
+@import "partials/typography";
+@import "partials/globals";
+@import "partials/buttons";
+@import "partials/forms";
+@import "partials/components";
+@import "partials/tabby";
+@import "partials/libs/glider";
+@import "partials/glider-overrides";
+@import "partials/main";
